@@ -1,0 +1,14 @@
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+trim_trailing_whitespace = true
+
+[*.{c,cpp}]
+indent_style = tab
+indent_size = 4
+
+[*.{txt,md}]
+trim_trailing_whitespace = false
