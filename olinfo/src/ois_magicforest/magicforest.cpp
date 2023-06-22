@@ -21,7 +21,7 @@ int main()
 	vector<edge> edges(m);
 	for (edge& i : edges)
 		cin >> i.a >> i.b >> i.weight;
-	
+
 	sort(edges.begin(), edges.end());
 
 	vector<unordered_map<int, unsigned int>> continues(n+1);

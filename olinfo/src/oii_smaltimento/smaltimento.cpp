@@ -31,7 +31,7 @@ long long smaltisci(int N, int M, vector<int> A, vector<vector<int>> B)
 
 		if (id == 0)
 			return dist[id]/2;
-		
+
 		if (vis[id]) continue;
 		vis[id] = true;
 

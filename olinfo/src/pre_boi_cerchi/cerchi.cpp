@@ -49,7 +49,7 @@ vector<int> trovacerchi(int N, vector<int> X, vector<int> Y)
 	for (int x : tmp)
 		if (x != N)
 			ans.push_back(x);
-	
+
 	tmp.clear();
 
 	for (int i : order)

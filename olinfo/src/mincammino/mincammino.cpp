@@ -5,7 +5,7 @@ using namespace std;
 
 #define pii pair<int,int>
 
-void mincammino(int n, int m, vector<int> x, vector<int> y, vector<int> p, vector<int> &d) 
+void mincammino(int n, int m, vector<int> x, vector<int> y, vector<int> p, vector<int> &d)
 {
 	vector<vector<pii>> g(n);
 

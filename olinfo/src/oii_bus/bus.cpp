@@ -7,11 +7,11 @@ using namespace std;
 int pianifica(int N, int L, vector<vector<int>> F)
 {
 	vector<unordered_map<int,int>> g(N);
-	
+
 	for (int i = 0; i < L; ++i)
 		for (int j = F[i].size()-1; j >= 0; --j)
 			g[F[i][j]][i] = j;
-	
+
 	vector<int> dist(N, -1);
 	queue<int> q;
 	dist[0] = 0;

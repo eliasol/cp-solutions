@@ -133,7 +133,7 @@ int _lower_bound(int a, int b, long long v, int x, int l, int r)
 	if (x >= n) return l;
 	if (l >= a && r <= b)
 	{
-		while(l != r) 
+		while(l != r)
 		{
 			push(x,l,r);
 			int m = (l+r)/2;
@@ -142,7 +142,7 @@ int _lower_bound(int a, int b, long long v, int x, int l, int r)
 				x = 2*x;
 				r = m;
 			}
-			else 
+			else
 			{
 				x = 2*x+1;
 				l = m+1;

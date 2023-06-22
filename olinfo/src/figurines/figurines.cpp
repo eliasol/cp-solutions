@@ -7,7 +7,7 @@
 
 typedef struct node node;
 
-struct node 
+struct node
 {
 	int sum;
 	node *l, *r;

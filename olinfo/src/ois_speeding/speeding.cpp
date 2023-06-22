@@ -19,7 +19,7 @@ int main()
 
 	sort(a.rbegin(), a.rend());
 	sort(b.rbegin(), b.rend());
-	
+
 	int ans = 1;
 	int x = 0;
 

@@ -26,7 +26,7 @@ int main()
 	for (int i = 1; i*i <= n; ++i)
 		for (int j = i; j <= n; j+=i)
 			best_rect[j] = min(best_rect[j], 2*(i+j/i));
-	
+
 	int dp[2][n+1];
 	int *dp1 = dp[0], *dp2 = dp[1];
 

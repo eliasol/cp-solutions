@@ -38,7 +38,7 @@ int main()
 	{
 		string s; cin >> s;
 		q.push_back(s);
-		if (cnt.count(s)) st.erase({cnt[s],s}); 
+		if (cnt.count(s)) st.erase({cnt[s],s});
 		++cnt[s];
 		st.insert({cnt[s],s});
 	}
@@ -53,7 +53,7 @@ int main()
 		st.insert({cnt[s],s});
 		cin >> s;
 		q.push_back(s);
-		if (cnt.count(s)) st.erase({cnt[s],s}); 
+		if (cnt.count(s)) st.erase({cnt[s],s});
 		++cnt[s];
 		st.insert({cnt[s],s});
 

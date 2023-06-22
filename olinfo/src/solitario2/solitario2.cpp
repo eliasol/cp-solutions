@@ -7,11 +7,11 @@ using namespace std;
 int main()
 {
 	int N,M; cin >> N >> M;
-	vector<vector<int>> tris(N, vector<int>(M));	
+	vector<vector<int>> tris(N, vector<int>(M));
 	for (auto& i : tris)
 		for (auto& j : i)
 			cin >> j;
-	
+
 	function<bool(int,int)> check_tris = [&](int x, int y) -> bool {
 		// Check horizontal
 		if (y > 1 && tris[x][y-2] && tris[x][y-1])

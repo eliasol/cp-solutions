@@ -56,7 +56,7 @@ int main()
 	};
 
 	auto max_flow = [&graph, &edges, &dfs, &vis](int source, int sink) -> int {
-		
+
 		int flow = 0;
 		int x;
 		while ((x = dfs(source, sink, 1e9, dfs)) > 0)

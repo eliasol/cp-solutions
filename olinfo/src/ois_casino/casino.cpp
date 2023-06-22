@@ -23,14 +23,14 @@ int main()
 	init_io();
 
 	int n,m; cin >> n >> m;
-	
+
 	vector<int> pows(2*m);
 	pows[0] = 1;
 	for (int i = 1; i < pows.size(); ++i)
 		pows[i] = (pows[i-1] * (ll) p) % mod;
 
 	long long ans = 0;
-	
+
 	unordered_map<int, int> hashes;
 	while (n--)
 	{

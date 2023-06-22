@@ -44,7 +44,7 @@ int main()
 
 	ma[0] = dp[0];
 	for (int i = 1; i < n; ++i)
-	{        
+	{
 		int l = 0, r = i-1;
 
 		while (l < r)

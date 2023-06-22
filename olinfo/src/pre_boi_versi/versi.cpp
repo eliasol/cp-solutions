@@ -15,7 +15,7 @@ int getlimit(int N, vector<int>& A, vector<int>& B)
 	return N;
 }
 
-int direziona(int N, vector<int> A, vector<int> B) 
+int direziona(int N, vector<int> A, vector<int> B)
 {
 	int a = getlimit(N,A,B);
 	reverse(A.begin(), A.end());

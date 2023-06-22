@@ -18,7 +18,7 @@ ofstream fout("output.txt");
 int main()
 {
 	init_io();
-	
+
 	int n; cin >> n;
 	int x, ans = -1001;
 

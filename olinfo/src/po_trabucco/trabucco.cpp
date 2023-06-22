@@ -58,7 +58,7 @@ int ContaPercorsi(int N, int M, int K, int* X, int* Y)
 	vector<vector<int>> conta(N,vector<int>(M,-1));
 
 	conta[0][0] = 1;
-	
+
 	function<int(int,int)> calc_num = [&](int x, int y) -> int {
 		if (conta[x][y] != -1) return conta[x][y];
 		if (sic[x][y] < best_sec) return conta[x][y] = 0;
@@ -67,6 +67,6 @@ int ContaPercorsi(int N, int M, int K, int* X, int* Y)
 		if (y > 0) conta[x][y] += calc_num(x,y-1);
 		return conta[x][y] = conta[x][y]%MOD;
 	};
-	
+
 	return calc_num(N-1,M-1);
 }

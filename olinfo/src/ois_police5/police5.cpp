@@ -67,6 +67,6 @@ int main()
 	}
 
 	cout << (nodi[n-1] == INF ? -1 : nodi[n-1]) << "\n";
-	
+
 	return 0;
 }

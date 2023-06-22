@@ -26,7 +26,7 @@ struct segment_tree
 		data.resize(2*size,0);
 	}
 
-	void push(int x) 
+	void push(int x)
 	{
 		if (data[x])
 			data[2*x] = data[2*x+1] = data[x];

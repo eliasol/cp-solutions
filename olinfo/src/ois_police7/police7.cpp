@@ -91,7 +91,7 @@ int main()
 	vector<int> v(n);
 	for (int& i : v)
 		cin >> i;
-	
+
 	segment_tree st(v);
 
 	while (q--)

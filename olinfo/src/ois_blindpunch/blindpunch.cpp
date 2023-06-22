@@ -10,7 +10,7 @@ using namespace std;
 int T, N, K, i, j;
 long double prob[MAXN];
 
-int main() 
+int main()
 {
 	freopen("input.txt", "r", stdin);
 	freopen("output.txt", "w", stdout);
@@ -24,7 +24,7 @@ int main()
 
 		for(j=0; j<N; j++)
 			assert(1 == scanf("%Lf", &prob[j])), pq.push({prob[j],j});
-		
+
 		while (K--)
 		{
 			auto top = pq.top(); pq.pop();
@@ -34,7 +34,7 @@ int main()
 
 		result = floor(result * 1000000) / 1000000;
 		printf("%.6Lf\n", result);
-	
+
 	}
 
 	return 0;

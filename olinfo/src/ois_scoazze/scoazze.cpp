@@ -36,7 +36,7 @@ int main()
 	for (int i = 0; i < n; ++i)
 		if (u[i] != 0)
 			ans += c[i] - u[i];
-	
+
 	cout << ans << "\n";
 
 	return 0;

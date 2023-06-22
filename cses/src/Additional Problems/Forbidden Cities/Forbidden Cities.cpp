@@ -66,7 +66,7 @@ int main()
 			cout << "YES" << "\n";
 			continue;
 		}
-		
+
 		int treea = -1, treeb = -1;
 
 		if (ca)
@@ -98,7 +98,7 @@ int main()
 
 		if (treea < treeb)
 			swap(treea, treeb), swap(ca, cb), swap(a, b);
-		
+
 		if (!cb && back[tree[c][treea]] < open[c])
 		{
 			cout << "YES" << "\n";

@@ -12,7 +12,7 @@ struct scala
 	int a,inizio,fine;
 };
 
-int raggiungi(int N, int M, int A[], int B[], int inizio[], int fine[]) 
+int raggiungi(int N, int M, int A[], int B[], int inizio[], int fine[])
 {
 	vector<vector<scala>> graph(N);
 

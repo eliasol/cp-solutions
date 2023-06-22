@@ -35,7 +35,7 @@ int main()
 			cin >> c;
 			if (c == 'T') t.push_back({i,j});
 		}
-	
+
 	n = t.size();
 	vector<int> best(n, INT_MAX);
 	best[0] = 0;

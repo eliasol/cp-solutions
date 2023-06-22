@@ -63,7 +63,7 @@ int main()
 			else r = m-1;
 		}
 
-		if (l == r && tornei[l].fine <= tornei[i].inizio && ma[l] >= tornei[i].prezzo) 
+		if (l == r && tornei[l].fine <= tornei[i].inizio && ma[l] >= tornei[i].prezzo)
 		{
 			dp[i] = max(dp[i], ma[l]-tornei[i].prezzo+tornei[i].premio);
 		}
