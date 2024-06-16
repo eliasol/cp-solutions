@@ -33,3 +33,7 @@
 
 # Haskell
 *.hi
+
+# Java
+*.class
+*.jar
