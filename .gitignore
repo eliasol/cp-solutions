@@ -37,3 +37,6 @@
 # Java
 *.class
 *.jar
+
+# Intellij IDEA
+.idea
